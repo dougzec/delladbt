@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataBuildToolJob",
+    "displayName": "dw_dbt"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "777cc0d0-6ed8-8b8d-471e-276aba25438d"
+  }
+}
