@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fct_fretes_por_transportadora
+    description: "Agregação de fretes por transportadora a partir do stg_fretes."
+    columns:
+      - name: transportadora
+        tests:
+          - unique
+          - not_null
+      - name: qtd_fretes
+      - name: valor_total
+      - name: ticket_medio
+      - name: peso_total_kg

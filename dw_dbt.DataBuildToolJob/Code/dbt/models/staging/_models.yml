@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_fretes
+    description: "Mock de fretes para testar o pipeline dbt no Fabric Warehouse."
+    columns:
+      - name: frete_id
+        description: "Identificador do frete."
+        tests:
+          - unique
+          - not_null
+      - name: data_emissao
+      - name: transportadora
+      - name: origem_uf
+      - name: destino_uf
+      - name: valor_frete
+      - name: peso_kg
